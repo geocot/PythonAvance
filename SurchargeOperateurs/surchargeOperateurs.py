@@ -24,8 +24,16 @@ class Point:
         self._x = self._x + other.x
         self._y = self._y + other.y
 
+    def __mul__(self, other):
+        self._x = self._x * other.x
+        self._y = self._y * other.y
+
+
+
 p1 = Point(1,1)
 p2 = Point(2,2)
 p1+p2
+print(p1.x,p1.y)
+p1*p2
 print(p1.x,p1.y)
 
