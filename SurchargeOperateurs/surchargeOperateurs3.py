@@ -28,16 +28,36 @@ class Point:
             self._x = self._x + other
             self._y = self._y + other
 
+        return self
+
     def __radd__(self, other):
         if type(other) == Point:
             self._x = self._x + other.x
             self._y = self._y + other.y
+
         if type(other) == int or type(other) == float:
             self._x = self._x + other
             self._y = self._y + other
 
+            return self
+    """
+    La méthode __radd__() peut-être ramplacée par return self.__add__(other)
+    """
+
+
+    def __iadd__(self, other):
+        if type(other) == Point:
+            self._x = self._x + other.x
+            self._y = self._y + other.y
+
+        if type(other) == int or type(other) == float:
+            self._x = self._x + other
+            self._y = self._y + other
+
+            return self
+
 p1 = Point(1,1)
 p2 = Point(2,2)
-1+p1
+p1+=1
 print(p1.x,p1.y)
 

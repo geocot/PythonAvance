@@ -28,6 +28,8 @@ class Point:
             self._x = self._x + other
             self._y = self._y + other
 
+        return self
+
 p1 = Point(1,1)
 p2 = Point(2,2)
 p1+1 #Plante avec 1+p1 - Il faut utiliser le __radd__()
