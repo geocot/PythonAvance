@@ -2,7 +2,7 @@ saisons = ["printemps", "été", "automne", "hiver"]
 
 for indice, saison in enumerate(saisons):
     print(indice, saison)
-#Résultat:
+#Résultats:
 # 0 printemps
 # 1 été
 # 2 automne
