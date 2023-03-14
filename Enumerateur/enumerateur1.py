@@ -7,4 +7,3 @@ for indice, saison in enumerate(saisons):
 # 1 été
 # 2 automne
 # 3 hiver
-
