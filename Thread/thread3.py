@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Fonction commune
 def compteur(maximum, nom):
     n=0
@@ -41,5 +40,4 @@ threadD.join()
 
 fin = time.time()
 print(f'Temps: {fin - depart} secs.')
-=======
->>>>>>> parent of 594c212 (thread)
+
