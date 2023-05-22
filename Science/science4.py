@@ -42,3 +42,4 @@ za = np.array([[2,1,-3],
 determinantZA = np.linalg.det(za)
 print(f"Déterminant de za est {round(determinantZA)}")
 print(f'La valeur de Z est za/a : {round(determinantZA/determinantA)}')
+

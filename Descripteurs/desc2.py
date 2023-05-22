@@ -20,7 +20,7 @@ class Point():
 class Ville():
     nom = Descripteur("Québec", "Nom")
 
-p = Point("-71",46)
+p = Point(-71,46)
 print(p.x)
 print(p.y)
 
