@@ -5,7 +5,7 @@ class Planete:
         self._diametre = diametre
 
     def __del__(self):
-        print(f"Suppression")
+        print("Suppression")
 
 print(Planete.__doc__)
 
