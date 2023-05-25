@@ -15,8 +15,6 @@ class Mois(Enum):
     NOVEMBRE = 11
     DECEMBRE = 12
 
-
-@dataclass
 class Evennement:
     def __init__(self, jour: int, mois: Mois, annee: int):
         self.jour = jour
