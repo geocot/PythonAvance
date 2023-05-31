@@ -1,4 +1,4 @@
-from module_concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor
 def mul2(nombre):
     return nombre *2
 
