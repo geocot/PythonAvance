@@ -14,3 +14,5 @@ class Nombre:
 n1 = Nombre(2, 4)
 print(5 * n1) # Retourne 10, 20
 print(n1 * 5) # Plante
+
+
