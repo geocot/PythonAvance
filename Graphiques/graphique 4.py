@@ -13,3 +13,4 @@ plt.legend(['Courbe 1', 'Courbe 2'])
 
 plt.show()
 
+
