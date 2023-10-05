@@ -1,3 +1,4 @@
+#Vidéo et explication disponible ici: https://youtu.be/vwAo6CCu0QA
 listeTempMoy = []
 listeLatitude = []
 
